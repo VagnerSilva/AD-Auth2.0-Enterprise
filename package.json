@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/VagnerSilva/AD-Auth2.0-Enterprise/issues"
   },
-  "homepage": "https://github.com/VagnerSilva/AD-Auth2.0-Enterprise#readme"
+  "homepage": "https://github.com/VagnerSilva/AD-Auth2.0-Enterprise#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "mongoose": "^4.11.3"
+  }
 }
