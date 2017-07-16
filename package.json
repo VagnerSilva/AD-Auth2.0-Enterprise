@@ -1,0 +1,26 @@
+{
+  "name": "ad-auth2.0-enterprise",
+  "version": "1.0.0",
+  "description": "Azure Secure Authentication Mode",
+  "main": "www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VagnerSilva/AD-Auth2.0-Enterprise.git"
+  },
+  "keywords": [
+    "Auth",
+    "AD",
+    "Azure",
+    "Office",
+    "Outlook"
+  ],
+  "author": "Vagner Pereira Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VagnerSilva/AD-Auth2.0-Enterprise/issues"
+  },
+  "homepage": "https://github.com/VagnerSilva/AD-Auth2.0-Enterprise#readme"
+}
