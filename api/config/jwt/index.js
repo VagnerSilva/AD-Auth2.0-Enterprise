@@ -14,10 +14,10 @@ const commands = [
  * @param {Object} payload
  */
 function token(payload) {
-  //   const pass  = Math.random().toString(23).replace(/[^a-z0-9]{23-82}+/g,'').slice(2)
+   //  const pass  = Math.random().toString(23).replace(/[^a-z0-9]{11-82}+/g,'').slice(2)
 
 // generator random primary key
-  if (!fs.existsSync('private.pem')) keyGenerator(commands);
+  if (!fs.existsSync(private.pem)) keyGenerator(commands);
   let primary = fs.readFileSync('private.pem', 'utf-8');
 
   return jwt.sign(payload, primary, {
