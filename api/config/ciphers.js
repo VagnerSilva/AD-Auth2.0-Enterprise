@@ -1,0 +1,32 @@
+'use strict';
+
+module.exports = [
+    'EECDH+AESGCM',
+    'EDH+AESGCM',
+    'ECDHE-RSA-AES128-GCM-SHA256',
+    'DHE-RSA-AES128-GCM-SHA256',
+    'ECDHE-RSA-AES256-GCM-SHA384',
+    'DHE-RSA-AES256-GCM-SHA384',
+    'ECDHE-RSA-AES256-SHA384',
+    'ECDHE-RSA-AES128-SHA256',
+    'ECDHE-RSA-AES256-SHA',
+    'ECDHE-RSA-AES128-SHA',
+    'DHE-RSA-AES256-SHA256',
+    'DHE-RSA-AES128-SHA256',
+    'DHE-RSA-AES256-SHA',
+    'DHE-RSA-AES128-SHA',
+    'ECDHE-RSA-DES-CBC3-SHA',
+    'EDH-RSA-DES-CBC3-SHA',
+    'AES256-GCM-SHA384',
+    'AES128-GCM-SHA256',
+    'HIGH',
+    '!aNULL',
+    '!eNULL',
+    '!EXPORT',
+    '!DES',
+    '!MD5',
+    '!PSK',
+    '!RC4',
+    '!SRP',
+    '!CAMELLIA'
+  ];
